@@ -63,7 +63,7 @@ nav ul {
     padding: 0;    
 }
 
-@media (min-width: 330px) {
+@media (min-width: 300px) {
     nav {
         text-align: left;
     } 
