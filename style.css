@@ -110,13 +110,19 @@ main {
     box-shadow: var(--shadow);
 }
 
-.wrapper {
-    min-height: 100%;
-    margin: 0 auto -58px;
+h1 {
+    font-size: 2em;
+    text-align: center;
 }
 
-.push {
-    height: 68px;
+h1, h2 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 /** FOOTER **/
@@ -124,6 +130,15 @@ footer {
     background-color: var(--cor5);
     color: white;
     text-align: center;
-    padding: 20px 0;
-    margin-top: -48px;
+    padding: 4px 0;
+    margin-top: -58px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -58px;
+}
+
+.push {
+    height: 58px;
 }
