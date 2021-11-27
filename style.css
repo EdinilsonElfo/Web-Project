@@ -25,6 +25,15 @@
     margin: 0;
 }
 
+.material-icons {
+    font-size: 18px;
+    padding: 0;
+}
+
+.icons {
+    padding: 8px 16px;
+}
+
 .dropdown {
     display: none;
 }
@@ -54,7 +63,7 @@ nav ul {
     padding: 0;    
 }
 
-@media (min-width: 410px) {
+@media (min-width: 330px) {
     nav {
         text-align: left;
     } 
