@@ -130,6 +130,7 @@ main {
     margin: 10px auto;
     padding: 20px;
     box-shadow: var(--shadow);
+    border-radius: 2px;
 }
 
 .card {
@@ -184,4 +185,45 @@ footer a {
 
 .push {
     height: 58px;
+}
+
+
+/** DARK THEME **/
+
+.dark-theme {
+    background-color: #222;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.dark-theme a, .dark-theme .material-icons {
+    color: #ddd;
+    transition: 0.5s;
+}
+
+.dark-theme nav, .dark-theme main, .dark-theme footer {
+    background-color: #333;
+    color: #ddd;
+    box-shadow: 0px 2px 5px #0006;
+    transition: 0.5s;
+}
+
+.dark-theme nav a:hover, .dark-theme nav * :hover, .dark-theme nav .active {
+    background-color: #222;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+/** LIGHT THEME **/
+.light-theme {
+    transition: 0.5s;
+}
+
+.light-theme main * {
+    color: black;
+    transition: 0.5s;
+}
+
+.light-theme * * {
+    transition: 0.5s;
 }
