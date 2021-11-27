@@ -93,6 +93,11 @@ nav li * {
 
 nav li *:hover {
     background-color: var(--cor3);
+    transition: 0.15s;
+}
+
+.active {
+    background-color: var(--cor3);
 }
 
 nav img.icone {
