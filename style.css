@@ -26,12 +26,14 @@
 }
 
 .material-icons {
-    font-size: 18px;
+    font-size: 22px;
     padding: 0;
 }
 
 .icons {
-    padding: 8px 16px;
+    position: relative;
+    top: 4px;
+    padding: 6px 12px;
 }
 
 .dropdown {
@@ -70,7 +72,6 @@ nav ul {
     nav * {
         display: inline-block;
     }
-
     #menu2 {
         float: right;
     }    
@@ -80,7 +81,7 @@ nav li * {
     font-weight: bold;
     color: white;
     display: block;
-    padding: 10px 16px;
+    padding: 10px 12px;
 }
 
 nav li *:hover {
