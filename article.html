@@ -57,12 +57,15 @@
         function changeTheme() {
             if (document.getElementById("body").className == 'light-theme') {
                 document.getElementById("body").className = 'dark-theme';
-                localStorage.setItem("theme", "dark_mode");
+                document.getElementById("theme-icon").innerHTML = 'dark_mode';
+                localStorage.setItem("theme", "dark-theme");
             } else if (document.getElementById("body").className == 'dark-theme') {
                 document.getElementById("body").className = 'light-theme';
                 document.getElementById("theme-icon").innerHTML = 'light_mode';
+                localStorage.setItem("theme", "light-theme");
             }
-        };  
+        };
+        document.getElementById("body").className = localStorage.getItem("theme");   
     </script>
 </body>
 </html>
