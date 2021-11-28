@@ -55,6 +55,10 @@
                 document.getElementById("body").className = 'light-theme';
                 document.getElementById("theme-icon").innerHTML = 'light_mode';
                 localStorage.setItem("theme", "light-theme");
+            } else {
+                document.getElementById("body").className = 'dark-theme';
+                document.getElementById("theme-icon").innerHTML = 'dark_mode';
+                localStorage.setItem("theme", "dark-theme")
             }
         };
         document.getElementById("body").className = localStorage.getItem("theme");   
